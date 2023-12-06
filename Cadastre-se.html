@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gaming- o site para ficar imformado sobre o universo dos jogos</title>
+    
+</head>
+<body>
+   <header>
+    <img src="logo.svg" alt="Logo do site gaming">
+    <nav> 
+      <a href="index.html"><Button>Início</Button></a>
+       <a href = "Sobre.html"><Button>Sobre</Button></a> 
+       <a href = "Notíciais.html"><Button>Noticiais</Button></a> 
+       <a href = "Contatos.html"><Button>Contatos</Button></a> 
+       <a href = "Cadastre-se.html"><Button>Cadastre-se.Admin</Button></a> 
+       <a href = "login.html"><Button>login.Admin</Button></a> 
+      </nav>
+    <div>
+<h1>Cadastro de gamers</h1>
+<p>Complete suas informações:</p>
+<br>
+</div>
+
+<form>
+<fieldset>
+<div>
+<label>Nome</label>
+<input type="text" name="nome" id="nome">
+</div>
+<div>
+  <label>Sobrenome</label>
+  <input type="text" name="sobrenome" id="sobrenome">
+  </div>
+</fieldset>
+<div>
+<label>Email</label>
+<input type="email" name="email" id="email">
+</div>
+<div>
+  <label>Telefone</label>
+  <input type="text" name="Telefone" id="Telefone">
+  </div>
+<div>
+<label> qual o seu gênero? </label>
+<label>
+  <input type="radio" name="gênero" value="masculino">masculino
+</label>
+  <label>
+    <input type="radio" name="gênero" value="Feminino">Feminino
+  </label>
+  </div>
+<fieldset>
+<div>
+  <label> selecione os gêneros de jogos que você mais gosta:</label>
+<input type="checkbox" id="jogos" name="jogos" value="FPS">
+<label for="jogos">FPS</label>
+<input type="checkbox" id="jogos" name="jogos" value="Battle Royale">
+<label for="jogos">Battle Royale</label>
+<input type="checkbox" id="jogos" name="jogos" value="PVP">
+<label for="jogos">PVP</label>
+<input type="checkbox" id="jogos" name="jogos" value="RTS">
+<label for="jogos">RTS</label>
+<input type="checkbox" id="jogos" name="jogos" value="MOBA">
+<label for="jogos">MOBA</label>
+<input type="checkbox" id="jogos" name="jogos" value="RPG">
+<label for="jogos">RPG</label>
+<input type="checkbox" id="jogos" name="jogos" value="MMORPG">
+<label for="jogos">MMORPG</label>
+</div>
+
+</fieldset>
+<div>
+  <br>
+<label>Escreva alguma melhoria para nosso site</label>
+<textarea name="melhoria" id="melhoria" style="width:26em" rows="2"></textarea>
+</div>
+
+<button type="submit">Enviar</button>
+</form>
